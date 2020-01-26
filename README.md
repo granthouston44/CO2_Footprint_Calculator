@@ -1,13 +1,33 @@
-# co2_footprint
+# CO2 Footprint Calculator
+A full stack web app that allows a user to input various aspects of their lifestyle and check their CO2 footprint. 
 
-## Project setup
+The app stores the form data into a database and then displays the data using HighChartsJS with a detailed breakdown of the emissions measured in kgCO2e/yr.
+As the user enters information into the form, a running total updates in real time showing the effect of their lifestyle. 
+A user can also view previous footprints using the stored data in the database. 
+
+Our API contains two endpoints, one containing the emissions factors used in the calculations, the other containing the users stored footprints. 
+
+The front-end was built using VueJS, whilst the backend uses Express, MongoDB and Node.js. 
+
+## Getting Started
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile and Run back-end, front-end servers
 ```
+cd client
 npm run serve
+```
+In a new tab
+```
+cd server
+npm run server:dev
+```
+New tab
+``` 
+cd server/db
+npm run seeds
 ```
 
 ### Compiles and minifies for production
@@ -15,5 +35,18 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### View the API
+To view the API data, use 
+> http://localhost:3000/api/emissions/users
+> http://localhost:3000/api/emissions/emissionfactors
+
+### Opening the app
+Visit 
+> http://localhost:8080
+
+### Authors
+Stephen Campbell, Grant Houston and Paul McManus
+
+### Aknowledgement 
+CodeClan for issuing the project brief and gifting knowledge required to build
+

@@ -50,3 +50,8 @@ Stephen Campbell, Grant Houston and Paul McManus
 ### Aknowledgement 
 CodeClan for issuing the project brief and gifting knowledge required to build
 
+### Resources used for Emissions Factor research
+http://shrinkthatfootprint.com/calculate-your-carbon-footprint
+http://assets.wwf.org.uk/downloads/how_low_report_1.pdf
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/829336/2019_Green-house-gas-reporting-methodology.pdf
+
